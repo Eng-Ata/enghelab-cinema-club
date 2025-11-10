@@ -23,7 +23,7 @@ This project aims to provide a clean UI and smooth user experience for cinema lo
 
 ## 💫 Preview
 
-[View Live Demo]()
+[View Live Demo](https://eng-ata.github.io/enghelab-cinema-club/)
 ## 🧑‍💻 Developer
 
 Ata  
