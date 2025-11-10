@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "IRANYekanX";
+  src: url(./fonts/BYekan+.ttf) format("truetype");
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background: repeating-linear-gradient(
+    to right,
+    rgb(237, 207, 237),
+    rgb(243, 184, 243) 1%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "IRANYekanX" sans-serif;
+  animation: move 3s ease-in forwards;
+  height: 100vh;
+  font-family: IRANYekanX,sans-serif;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+}
+
+.form {
+  background-color: rgb(201, 187, 205);
+  border: 2px solid rgb(49, 49, 49);
+  border-radius: 35px;
+  box-shadow: 0 0 6px 2px rgb(48, 48, 48);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+}
+
+.form h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-group label {
+  font-size: 16px;
+  text-align: right;
+  color: #333;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: right;
+  width: 100%;
+}
+
+.form input[type="submit"] {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(72, 47, 68);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  box-shadow: 0 4px #2c2c2c;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: rgb(90, 60, 85);
+}
+
+.form input[type="submit"]:active {
+  box-shadow: 0 2px #2c2c2c;
+  transform: translateY(3px);
+}
+
+.signup {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #002bac;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}

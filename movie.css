@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "IRANYekanX";
+  src: url(./fonts/BYekan+.ttf) format("truetype");
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+.bar a {
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  border-radius: 30px;
+  height: 45px;
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-top: 11px;
+  margin-left: 65px;
+}
+.login a {
+  display: inline-block;
+  width: 83px;
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 3px;
+}
+.logo {
+  display: inline-block;
+  width: 79.61949920654297px;
+  height: 62px;
+}
+.right li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+}
+hr {
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+.heading {
+  font-family: IRANYekanX;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  text-align: center;
+  margin-top: 47px;
+}
+.description {
+  width: 720px;
+  height: 50px;
+  font-family: IRANYekanX;
+  font-weight: 600;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.position {
+  position: relative;
+}
+.movie {
+  width: 100%;
+  height: 500px;
+  margin-top: 35px;
+  position: relative;
+}
+.bg1 {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  height: 250px;
+  width: 100%;
+}
+.bg2 {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  height: 250px;
+  width: 100%;
+}
+.photo {
+  cursor: pointer;
+  transition: transform 0.3s, z-index 0.3s;
+}
+.images {
+  display: inline-block;
+  position: relative;
+  margin-top: 150px;
+  margin-right: 80px;
+  width: 30%;
+  height: 250px;
+}
+.img1 {
+  position: absolute;
+  width: 309.73260498046875px;
+  height: 181px;
+  z-index: -1;
+}
+.img2 {
+  position: absolute;
+  width: 309.73260498046875px;
+  height: 181px;
+  rotate: -15deg;
+}
+.img3 {
+  position: absolute;
+  width: 309.73260498046875px;
+  height: 181px;
+  z-index: 1;
+  rotate: 15deg;
+}
+.imgdes {
+  display: inline-block;
+  width: 50%;
+  height: 100px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 140px;
+  margin-right: 40px;
+}
+.imgdes p {
+  font-family: IRANYekanX;
+  font-weight: 500;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.line92 {
+  width: 496px;
+  height: 0px;
+  border-width: 1px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  display: inline-block;
+  margin-left: 25px;
+}
+.actor {
+  display: flex;
+  align-items: center;
+}
+.actor h1 {
+  font-family: IRANYekanX;
+  font-weight: 600;
+  font-style: DemiBold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.member {
+  display: flex;
+  align-items: center;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 8px;
+}
+.lists img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.lists h2 {
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-top: 15px;
+}
+.lists p {
+  font-family: IRANYekanX;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgba(68, 68, 68, 1);
+  margin-top: 7px;
+}
+footer {
+  display: flex;
+  border-top: 1px solid rgba(204, 204, 204, 1);
+  margin-top: 230px;
+}
+footer div img {
+  width: 100px;
+  height: 80px;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+.first {
+  border-left: 1px solid rgba(204, 204, 204, 1);
+  width: 33%;
+}
+footer div p {
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+  width: 357px;
+  height: 103px;
+  margin-top: 10px;
+  margin-right: 35px;
+  color: rgba(83, 83, 83, 1);
+}
+.second {
+  width: 33%;
+  border-left: 1px solid rgba(204, 204, 204, 1);
+}
+footer div ul {
+  margin-right: 15px;
+  font-family: IRANYekanX;
+  font-weight: 600;
+  font-style: DemiBold;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-top: 15px;
+}
+footer div li {
+  margin-right: 40px;
+  font-family: IRANYekanX;
+  font-weight: 600;
+  font-style: DemiBold;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+footer div li a {
+  all: unset;
+  cursor: pointer;
+}
+
+.second div p {
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 10px;
+}
+.second div:nth-child(2) {
+  margin-top: 55px;
+  border-top: 1px solid rgba(204, 204, 204, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third {
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+  height: 70%;
+  width: 34%;
+}
+.third h2 {
+  margin-top: 30px;
+  font-family: IRANYekanX;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 45px;
+}
+.fa-lightbulb {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgba(0, 125, 195, 1);
+}
+.right li:hover {
+  transform: scale(1.4);
+  background-color: rgb(98, 223, 237);
+  border-radius: 50%;
+  transition: 1s;
+}
+img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 3px 2px gray;
+}
+.movie:hover {
+  transform: scale(1);
+}
+.photo:hover {
+  border-radius: 3px;
+}
+.login:hover{
+    transform: rotate(10deg);
+    transition: 2s;
+    transition-timing-function: ease-in;
+
+}
