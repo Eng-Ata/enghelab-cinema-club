@@ -28,6 +28,7 @@ fieldset {
   background:linear-gradient(rgba(179, 8, 8, 0.5), rgba(6, 6, 137, 0.463));
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  margin-right: 25px;
 }
 
 legend {
@@ -82,3 +83,4 @@ input[type="submit"]:active {
   box-shadow: 0 2px #011149;
   transform: translateY(3px);
 }
+
